@@ -42,7 +42,7 @@ def using_delete(ar, str)
   ar.delete(str)
 end
 
-def using_delete(ar, int)
+def using_delete_at(ar, int)
   ar.delete_at(int)
 end
 
