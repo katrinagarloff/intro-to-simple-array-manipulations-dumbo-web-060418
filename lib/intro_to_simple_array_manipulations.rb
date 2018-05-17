@@ -38,6 +38,10 @@ def using_flatten(ar)
   ar.flatten()
 end
 
+def using_delete(ar, str)
+  ar.delete(str)
+end
+
 def using_delete(ar, int)
   ar.delete_at(int)
 end
